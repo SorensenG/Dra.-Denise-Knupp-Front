@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #2C3E50;
+}
+
+/* HEADER */
+header {
+  background-color: #2C3E50;
+  padding: 16px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  color: #C9A96E;
+  font-size: 20px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #C9A96E;
+}
+
+/* HERO */
+.hero {
+  background-color: #f5f5f5;
+  padding: 80px 32px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 36px;
+  color: #2C3E50;
+  margin-bottom: 16px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 32px;
+}
+
+.hero a {
+  background-color: #C9A96E;
+  color: #ffffff;
+  padding: 14px 28px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.hero a:hover {
+  background-color: #b8924f;
+}
+
+/* NUMEROS */
+.numeros {
+  background-color: #2C3E50;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  padding: 40px 32px;
+  text-align: center;
+}
+
+.numeros div h3 {
+  font-size: 40px;
+  color: #C9A96E;
+}
+
+.numeros div p {
+  font-size: 14px;
+}
+
+/* SERVICOS */
+.servicos {
+  padding: 60px 32px;
+  text-align: center;
+}
+
+.servicos h2 {
+  font-size: 28px;
+  margin-bottom: 32px;
+  color: #2C3E50;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-top: 4px solid #C9A96E;
+  padding: 24px;
+  width: 200px;
+  border-radius: 4px;
+}
+
+.card h3 {
+  font-size: 16px;
+  color: #2C3E50;
+  margin-bottom: 8px;
+}
+
+.card p {
+  font-size: 13px;
+  color: #777;
+}
+
+/* FOOTER */
+footer {
+  background-color: #2C3E50;
+  color: #aaa;
+  text-align: center;
+  padding: 24px;
+  font-size: 13px;
+}
+
+footer a {
+  color: #C9A96E;
+  text-decoration: none;
+}
+
+footer p + p {
+  margin-top: 8px;
+}
