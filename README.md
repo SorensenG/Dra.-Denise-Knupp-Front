@@ -4,10 +4,13 @@ Landing page estática em HTML, CSS e JavaScript puro para o projeto de extensã
 
 ## Estrutura
 
-- `index.html`: conteúdo da página, SEO, links e dados estruturados.
+- `index.html`: conteúdo da página, SEO local, links e dados estruturados.
 - `style.css`: identidade visual roxa/dourada, responsividade e componentes.
-- `script.js`: menu mobile, FAQ interativo, rolagem suave e animações.
-- `assets/`: espaço para imagens futuras autorizadas.
+- `script.js`: menu mobile, FAQ acessível, rolagem suave, animações e eventos de conversão.
+- `privacidade.html`: política de privacidade e transparência.
+- `creditos.html`: créditos e licenças das imagens ilustrativas.
+- `robots.txt` e `sitemap.xml`: indexação e descoberta pelo Google.
+- `vercel.json`: URLs limpas e cabeçalhos de segurança.
 
 ## Identidade visual
 
@@ -77,15 +80,20 @@ http://127.0.0.1:8080
 - Não coletar dados sensíveis por formulário no site.
 - Manter dúvidas clínicas direcionadas para avaliação presencial.
 
-## Pendências antes da publicação final
+## Validação realizada
 
-- Confirmar telefone oficial.
-- Confirmar endereço e link de mapa.
-- Confirmar CRO.
-- Confirmar lista final de tratamentos.
-- Substituir monograma textual pela logo oficial, se a cliente fornecer.
-- Validar todos os textos com a Dra. Denise.
-- Remover `noindex` do `index.html` somente depois da validação final.
+- WhatsApp, Instagram, identidade visual e tratamentos principais confrontados com os canais oficiais da profissional.
+- Endereço complementado com sala e CEP a partir dos cadastros públicos da clínica.
+- Conteúdo clínico redigido sem promessa de resultado e com indicação de avaliação individual.
+- Indexação, compartilhamento social, privacidade, acessibilidade e segurança preparados para produção.
+
+## Itens que dependem da cliente
+
+- Fornecer a versão vetorial da logomarca oficial, caso exista.
+- Confirmar formação, cursos e especializações que possam ser divulgados.
+- Confirmar dias e horários fixos, estacionamento e acessibilidade.
+- Informar o domínio próprio quando for adquirido.
+- Confirmar autorização final de uso da foto profissional.
 
 
 ## Assets adicionados nesta versão

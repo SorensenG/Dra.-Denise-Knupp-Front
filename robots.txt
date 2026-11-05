@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dra-denise-knupp-landing-page.vercel.app/sitemap.xml
